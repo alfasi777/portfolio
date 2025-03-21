@@ -16,7 +16,7 @@ const Footer = ({isDarkMode}) => {
                         border-gray-400 mx-[10%] mt-12 py-6'>
             <p>סיינט-אלפ בניית אתרים ©</p>
             <ul className='flex items-center gap-10 mt-4 sm:mt-0'>
-                <li><a target='_blank' href='https://github.com/alfasi777/protfolio.git'>GitHub</a></li>
+                <li><a target='_blank' href='https://github.com/alfasi777'>GitHub</a></li>
                 <li><a target='_blank' href='#'>LinkedIn</a></li>
                 <li><a target='_blank' href='#'>Twitter</a></li>
                 
