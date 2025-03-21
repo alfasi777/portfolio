@@ -14,12 +14,24 @@ const Footer = ({isDarkMode}) => {
         </div>
         <div className='text-center sm:flex items-center justify-between border-t
                         border-gray-400 mx-[10%] mt-12 py-6'>
-            <p>סיינט-אלפ בניית אתרים ©</p>
-            <ul className='flex items-center gap-10 mt-4 sm:mt-0'>
-                <li><a target='_blank' href='https://github.com/alfasi777'>GitHub</a></li>
-                <li><a target='_blank' href='#'>LinkedIn</a></li>
-                <li><a target='_blank' href='#'>Twitter</a></li>
-                
+            <p>© סיינט-אלפ בניית אתרים</p>
+            <ul className='flex flex-grow-0 gap-6 mt-4 sm:mt-0'>
+                <li className='flex items-center gap-1'>
+                    <a target='_blank' href='https://github.com/alfasi777'>GitHub</a>
+                    <Image src={assets.github} alt='github' className='w-4' />
+                </li>
+                <li className='flex items-center gap-1'>
+                    <a target='_blank' href='#'>LinkedIn</a>
+                    <Image src={assets.linkedin} alt='github' className='w-4' />
+                </li>
+                <li className='flex items-center gap-1'>
+                    <a target='_blank' href='#'>X</a>
+                    <Image src={assets.twitter} alt='github' className='w-4' />
+                </li>
+                <li className='flex items-center gap-1'>
+                    <a target='_blank' href='#'>DarkNet</a>
+                    <Image src={assets.profile_img3} alt='github' className='w-4' />
+                </li>
             </ul>
         </div>
     </div>

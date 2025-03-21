@@ -17,6 +17,7 @@ import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './profile-img.png';
+import profile_img3 from './profile-img3.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -36,6 +37,9 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import twitter from './twitter.png';
+import linkedin from './linkedin.png';
+import github from './github.png';
 
 export const assets = {
     user_image,
@@ -57,6 +61,7 @@ export const assets = {
     mail_icon,
     mail_icon_dark,
     profile_img,
+    profile_img3,
     download_icon,
     hand_icon,
     header_bg_color,
@@ -75,7 +80,10 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    twitter,
+    linkedin,
+    github
 };
 
 export const workData = [
