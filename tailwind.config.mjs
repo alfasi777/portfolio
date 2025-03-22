@@ -12,7 +12,7 @@ export default {
       colors: {
         lightHover: '#fcf4ff',
         darkHower: '#2a004a',
-        darkTheme: '#11001f',
+        darkTheme: '#221c4d',
       },
       fontFamily:{
         Outfit: ["Outfit","sans-serif"],

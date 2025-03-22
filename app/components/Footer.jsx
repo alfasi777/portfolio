@@ -32,7 +32,7 @@ const Footer = ({isDarkMode}) => {
                         <Image src={assets.twitter} alt='github' className='w-4' />
                     </li>
                     <li className='flex items-center gap-1'>
-                        <a target='_blank' href='#'>DarkWeb</a>
+                        <a target='_blank' href='#'>Tor</a>
                         <Image src={assets.profile_img3} alt='github' className='w-4' />
                     </li>
                 </ul>
