@@ -19,7 +19,7 @@ const Header = () => {
             whileInView={{scale: 1}}
             transition={{duration:0.8, type:spring, stiffness: 100}}
         >
-            <Image src={assets.profile_img} alt=''className='rounded-full w-48'/>
+            <Image src={assets.saintAlf} alt='לוגו' className='w-80 h-80'/>
         </motion.div>
         
         <motion.h3
@@ -28,7 +28,7 @@ const Header = () => {
             transition={{duration:0.6, delay: 0.3}}
          className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-sans text-gray-600'
             >אסף בדרי - מייסד ובעלים
-            <Image src={assets.hand_icon} alt='' className='w-6'/>
+            <Image src={assets.profile_img} alt='' className='w-8'/>
         </motion.h3>
         
         <motion.p 

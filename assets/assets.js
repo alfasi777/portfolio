@@ -40,6 +40,7 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import twitter from './twitter.png';
 import linkedin from './linkedin.png';
 import github from './github.png';
+import saintAlf from './saintAlf.png';
 
 export const assets = {
     user_image,
@@ -83,7 +84,8 @@ export const assets = {
     right_arrow_bold_dark,
     twitter,
     linkedin,
-    github
+    github,
+    saintAlf
 };
 
 export const workData = [
