@@ -41,6 +41,7 @@ import twitter from './twitter.png';
 import linkedin from './linkedin.png';
 import github from './github.png';
 import saintAlf from './saintAlf.png';
+import sliks from './sliks.png'
 
 export const assets = {
     user_image,
@@ -85,7 +86,8 @@ export const assets = {
     twitter,
     linkedin,
     github,
-    saintAlf
+    saintAlf,
+    sliks
 };
 
 export const workData = [

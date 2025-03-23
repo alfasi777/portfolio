@@ -39,7 +39,7 @@ const Header = () => {
             >עיצוב והקמת אתרי אינטרנט, וחנויות דיגיטליות בוורדפרס או בכתיבת קוד. ניהול ותמיכה ברשתות תקשורת, אקטיב דיריקטורי ואופיס 365, בסיסי נתונים, מדפסות ושרתים, באתר הלקוח או בענן. כמו כן ניתן לרכוש רשיונות תוכנה, חומרה, דומיינים ושטחי אחסון בענן.
         </motion.p>
         <div className='flex flex-col sm:flex-row items-center gap-8 mt-4'>
-            <motion.a href='#contect'
+            <motion.a href='#contact'
                 initial = {{y: -30, opacity: 0}}
                 whileInView={{y:0,opacity: 1}}
                 transition={{duration:0.6, delay: 1}}

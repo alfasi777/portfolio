@@ -26,14 +26,14 @@ const About = ({isDarkMode}) => {
             initial = {{opacity: 0}}
             whileInView={{opacity: 1}}
             transition={{duration:0.8}}
-            className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
+            className='flex w-full flex-col lg:flex-row items-center gap-20 my-10'>
             <motion.div 
                 initial = {{opacity: 0, scale: 0.9}}
                 whileInView={{opacity: 1, scale:1}}
                 transition={{duration:0.6}}
                 className='w-64 sm:w-80 rounded-3xl max-w-none'>
-                <Image src={assets.user_image} alt='user' 
-                    className='w-full rounded-3xl'/>
+                <Image src={assets.sliks} alt='user' 
+                    className='w-full scale-105 p-2 rounded-3xl border border-yellow-500/25'/>
             </motion.div>
             <motion.div
                 initial = {{opacity: 0}}
