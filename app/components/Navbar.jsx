@@ -31,7 +31,7 @@ const Navbar = ({isDarkMode,setisDarkMode}) => {
         <Image src={assets.header_bg_color} alt='' className='w-full'/>
     </div>
         <nav className= {`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4
-                        flex items-center justify-between z-50
+                        flex items-center gap-[15vw]
                         ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg drop-shadow-sm dark:bg-darkTheme dark:shadow-white/20" : 
                             ""
                         }`}>
@@ -48,7 +48,7 @@ const Navbar = ({isDarkMode,setisDarkMode}) => {
                     <Image src={ isDarkMode ? assets.sun_icon : assets.moon_icon} alt='' className='w-6' />
                 </button>
             </div>
-            <ul className={`hidden md:flex items-center gap-6 lg:gap-8 text-xl text-black 
+            <ul className={`hidden md:flex items-center gap-6 lg:gap-8 text-xl text-black
                             rounded-sm px-12 py-3 font-sans dark:text-white 
                             hover:bg-lightHover dark:hover:bg-darkHower/90 transition duration-700
                             ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"}
@@ -61,11 +61,11 @@ const Navbar = ({isDarkMode,setisDarkMode}) => {
                 <li><a className='font-sans  hover:text-yellow-600/85' href='#contact'>צור קשר</a></li>
                 
             </ul>
-            <a href='#top'>
+            {/*<a href='#top'>
                 <Image alt='סיינטאלפ לוגו' src={assets.logo5} className='w-16 cursor-pointer mr-14 rounded-md  drop-shadow-2xl' />
             </a>
 
-            {/* -- -------- mobile menu ------- --  */}
+             -- -------- mobile menu ------- --  */}
 
             <ul ref={sideMenuRef} className='flex md:hidden flex-col font-medium text-lg gap-4 py-20 px-10 
                             fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen 
