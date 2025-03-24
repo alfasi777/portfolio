@@ -1,4 +1,4 @@
-import {Outfit,Ovo, Noto_Sans} from "next/font/google";
+import {Outfit,Ovo, Noto_Sans , M_PLUS_Rounded_1c} from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -14,6 +14,11 @@ const ovo = Ovo({
 const noto = Noto_Sans({
   subsets: ["latin"],
     weight: ["100","400","500","600","700","900"],
+})
+
+const m_PLUS_Rounded_1c = M_PLUS_Rounded_1c ({
+  subsets: ["hebrew"],
+  weight: ["400"],
 })
 
 export const metadata = {

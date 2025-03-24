@@ -13,7 +13,8 @@ const Header = () => {
             initial = {{y: -30, opacity: 0}}
             whileInView={{y: 0, opacity: 1}}
             transition={{duration:0.8, delay: 0.5}}
-         className='leading-6 sm:text-4xl lg:text-[56px] font-sans text-yellow-500/80 mb-2'>סיינט-אלפ אינטרנט ורשתות</motion.h1>
+         className='leading-6 text-2xl font-semibold sm:text-4xl lg:text-[56px] 
+                    font-sans text-yellow-500/70 mt-4 sm:mt-0'>סיינט-אלפ אינטרנט ורשתות</motion.h1>
         <motion.div
             initial = {{scale: 0}}
             whileInView={{scale: 1}}
